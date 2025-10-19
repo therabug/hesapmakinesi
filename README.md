@@ -1,18 +1,29 @@
 # Hesap Makinesi
+
+A simple calculator built with **Rust** using **libadwaita / GTK4**. This project was created to learn GTK4 and Rust GUI development.
+
 ![screenshot](images/screenshot.png)
 
-This is a very basic calculator that can do 4 operations. I made this to learn libadwaita/gtk4.
+## Features
 
-# Features
-+ All four arithmetic operations
-+ Safe (I think so? I trust Rust.)
-+ Parantese support
+* ✅ Supports all four basic arithmetic operations: `+`, `-`, `*`, `/`
+* ✅ Parentheses support for complex expressions
+* ✅ Safe and reliable (thanks to Rust!)
 
-# Building
-I love cargo.
-+ `cargo run` or `cargo build --release`
+## Building & Running
 
-It won't compile on Windows. It's very hard to compile GTK to Windows.
+This project uses **Cargo** for building and running. I love Rust.
 
-# LICENSE
-This is under [MIT](LICENSE) license.
+```bash
+# Run directly
+cargo run
+
+# Build release version
+cargo build --release
+```
+
+> ⚠️ Note: Currently, this project does **not compile on Windows**. GTK is tricky to set up on Windows, so Linux/macOS is recommended.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
