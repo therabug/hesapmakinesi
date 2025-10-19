@@ -1,5 +1,6 @@
 # Hesap Makinesi
 ![screenshot](images/screenshot.png)
+
 This is a very basic calculator that can do 4 operations. I made this to learn libadwaita/gtk4.
 
 # Features
